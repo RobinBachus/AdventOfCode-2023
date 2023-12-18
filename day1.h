@@ -3,7 +3,7 @@
 #include <string>
 #include <vector>
 
-class day1
+class day1 final
 {
 private:
 	inline static std::map<std::string, int> s_digits_ = {
